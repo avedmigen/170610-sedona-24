@@ -6,7 +6,117 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="#" width="100" height="100" alt="Логотип городка Седона">       
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li class="site-navigation-current"><a href="hotels.html">Гостиницы</a></li>
+        </ul>        
+      </nav>      
+    </header>
+
+    <main class="container">
+      <h1 class="visually-hidden">Гостиницы в Седоне</h1>
+
+      <section class="hotels-filter">
+      	<h2 class="visually-hidden">Выбрать гостиницу в Седоне</h2>
+		<!-- Тут будет форма с фильтром для выбора гостиниц -->
+      </section>
+
+      <section class="hotels-filter-result">
+      	<h2 class="visually-hidden">Результаты поиска гостиницы в Седоне</h2>
+      	<p>Найдено:3 </p>
+		
+		<h3>Сортировка:</h3>
+      	<ul class="sort-result">
+      		<li class="sort-result-current">По цене</li>
+      		<li>По типу</li>
+      		<li>По рейтингу</li>
+      	</ul>
+
+      	<ul class="sort-result-range">
+      		<li>По возрастанию</li>
+      		<li class="sort-result-range-current">По убыванию</li>
+      	</ul>
+
+      	<ul class="sort-result-items">
+      		<li>
+      			<article class="sort-result-item">
+      				<h2>Amara Resort & Spa</h2>		      					
+      				<img src="#" width="100" height="100" alt="Amara Resort & Spa">
+      				<p class="type">Гостиница</p>
+      				<p class="price">Oт 4000 р.</p>
+      				<ul class="stars">
+      					<li></li>
+      					<li></li>
+      					<li></li>
+      					<li></li>
+      				 </ul>
+      				<p class="rating">Рейтинг: 8,5</p>	
+      				<a href="#" class="more-about">Подробнее</a> 
+      				<button class="book-hotel" name="amara-resort-spa" id="amara-resort-spa" type="submit" value="Забронировать Amara Resort & Spa">Забронировать</button>  	
+      			</article>
+      		</li>
+      		<li>
+      			<article class="sort-result-item">
+      				<h2>Desert Quail Inn</h2>		      					
+      				<img src="#" width="100" height="100" alt="Desert Quail Inn">
+      				<p class="type">Мотель</p>
+      				<p class="price">От 3000 Р.</p>
+      				<ul class="stars">
+      					<li></li>
+      					<li></li>
+      					<li></li>
+      				 </ul>
+      				<p class="rating">Рейтинг: 8,9</p>	
+      				<a href="#" class="more-about">Подробнее</a> 
+      				<button class="book-hotel" name="desert-quail-inn" id="desert-quail-inn" type="submit" value="Забронировать Desert Quail Inn">Забронировать</button>  	
+      			</article>
+      		</li>
+      		<li>
+      			<article class="sort-result-item">
+      				<h2>Villas at Poco Diablo</h2>		      					
+      				<img src="#" width="100" height="100" alt="Villas at Poco Diablo">
+      				<p class="type">Апартаменты</p>
+      				<p class="price">От 2000 Р.</p>
+      				<ul class="stars">
+      					<li></li>
+      					<li></li>
+      				 </ul>
+      				<p class="rating">Рейтинг: 9,2</p>	
+      				<a href="#" class="more-about">Подробнее</a> 
+      				<button class="book-hotel" name="villas-at-poco-diablo" id="villas-at-poco-diablo" type="submit" value="Забронировать Villas at Poco Diablo">Забронировать</button>  	
+      			</article>
+      		</li>
+      	</ul>
+
+      </section>      
+
+    </main>
+
+    <footer class="main-footer">  	
+      <p class="footer-hashtag">#visitSEDONA</p> 
+      <div class="footer-social">
+      	<ul>
+      		<li class="twitter">
+      			<a class="social-button" href="#">Twitter</a>
+      		</li>
+      		<li class="facebook">
+      			<a class="social-button" href="#">Фейсбук</a>
+      		</li>
+      		<li class="youtube">
+      			<a class="social-button" href="#">YouTube</a>
+      		</li>
+      	</ul>
+      </div>
+      <p class="footer-copyright">
+      	Website by <a href="https://up.htmlacademy.ru"><img src="#" width="100" height="100" alt="Html Academy"></a></p>
+     </footer>
 
   </body>
 </html>
