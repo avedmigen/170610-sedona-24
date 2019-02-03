@@ -26,7 +26,7 @@
         <p class="features-intro">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>     
       <section class="features">
-      	<h2 class="visually-hidden">Преимущества</h2>
+      	<h2 class="visually-hidden">Преимущества Седоны</h2>
         <ol class="features-list">
             <li class="feature-item">
               <div>
@@ -74,7 +74,18 @@
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, <br>
         и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
-        <!-- Тут будет форма "ПОИСК ГОСТИНИЦЫ В Cедоне"-->
+        <a href="#">Поиск гостиницы в Седоне</a>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <label for="arrival_date">Дата заезда:</label>
+          <input type="text" id="arrival_date" name="arrival_date" placeholder="24 апреля 2017">
+          <label for="departure_date">Дата выезда:</label>
+          <input type="text" id="departure_date" name="departure_date" placeholder="4 июля 2017">
+          <label for="adults_number">Взрослые:</label>
+          <input type="number" id="adults_number" name="adults_number" placeholder="2">
+          <label for="children_number">Дети:</label>
+          <input type="number" id="children_number" name="children_number" placeholder="0">
+          <button>Найти</button>
+        </form>
       </section>
       <section class="map">
         <h2 class="visually-hidden">Карта Седоны</h2>
