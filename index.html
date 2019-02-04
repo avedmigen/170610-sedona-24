@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -20,15 +19,14 @@
         </ul>
       </nav>
     </header>
-
     <main class="container">
-
-      <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону">
-      <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p class="features-intro">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-
+      <section class="welcome">
+        <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону">    
+        <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p class="features-intro">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      </section>     
       <section class="features">
-      	<h2 class="visually-hidden">Преимущества</h2>
+      	<h2 class="visually-hidden">Преимущества Седоны</h2>
         <ol class="features-list">
             <li class="feature-item">
               <div>
@@ -72,19 +70,40 @@
             </li>
         </ol>
       </section>
-
       <section class="search-hotel">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, <br>
         и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
-        	<!-- Тут будет форма "ПОИСК ГОСТИНИЦЫ В Cедоне"-->
-      	<div class="search-hotel-map">
-      		<!-- Тут будет код карты Гугл -->
-      	</div>
+        <a href="#">Поиск гостиницы в Седоне</a>
+        <form action="https://echo.htmlacademy.ru" method="post" class="search-hotel-form">
+        	<p class="search-hotel-arrival-date">
+        		<label>Дата заезда:
+          		<input type="text" id="arrival_date" name="arrival_date" placeholder="24 апреля 2017">
+          	</label>                    
+        	</p>
+        	<p class="search-hotel-departure-date">
+        		<label>Дата выезда:
+        			<input type="text" id="departure_date" name="departure_date" placeholder="4 июля 2017">
+        		</label>
+        	</p>
+        	<p class="search-hotel-adults-number">
+        		<label>Взрослые:
+        			<input type="number" id="adults_number" name="adults_number" placeholder="2">
+        		</label>        		
+        	</p>
+        	<p class="search-hotel-children-number">
+        		<label>Дети:
+        			<input type="number" id="children_number" name="children_number" placeholder="0">
+        		</label>        		
+        	</p>
+          <button type="submit">Найти</button>
+        </form>
       </section>
-
+      <section class="map">
+        <h2 class="visually-hidden">Карта Седоны</h2>
+        <!-- Тут будет код карты Гугл -->       
+      </section>
     </main>
-
     <footer class="main-footer">
       <p class="footer-hashtag">#visitSEDONA</p>
       	<ul class="footer-social">
@@ -101,6 +120,5 @@
       <p class="footer-copyright">
       	Website by <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/html-academy-logo.svg" width="115" height="41" alt="Html Academy"></a></p>
      </footer>
-
   </body>
 </html>
