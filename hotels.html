@@ -28,12 +28,59 @@
 		      <form action="https://echo.htmlacademy.ru" method="post" class="filter-hotel-form">
             <fieldset>
               <legend>Инфраструктура:</legend>
+	              <ul>
+	              	<li>
+	              		<label>Бассейн
+	              			<input type="checkbox" id="pool" name="pool" checked>
+	              		</label>
+	              	</li>
+	              	<li>
+	              		<label>Парковка
+	              			<input type="checkbox" id="parking" name="parking">
+	              		</label>
+	              	</li>
+	              	<li>
+	              		<label>Wi-Fi
+	              			<input type="checkbox" id="wi-fi" name="wi-fi">
+	              		</label>
+	              	</li>
+	              </ul>
             </fieldset>
             <fieldset>
               <legend>Тип жилья:</legend>
+              <ul>
+              	<li>
+              		<label>
+              			Гостиницa
+              				<input type="checkbox" id="hotel" name="hotel" checked>
+              		</label>
+              	</li>
+              	<li>
+              		<label>
+              			Мотель
+              			<input type="checkbox" id="motel" name="motel" checked>
+              		</label>
+              	</li>
+              	<li>
+              		<label>
+              			Апартаменты
+              			<input type="checkbox" id="apartment" name="apartment" checked>
+              		</label>
+              	</li>
+              </ul>
             </fieldset>
             <fieldset>
               <legend>Стоимость в сутки (р):</legend>
+              <label>
+              	<input type="text" id="min-cost" name="min-cost" placeholder="От 0">
+              </label>
+              <label>
+              	<input type="text" id="max-cost" name="max-cost" placeholder="До 3000">
+              </label>
+              <div class="range-line-wrapper">
+              	<hr class="range-line-bold">
+              	<hr class="range-line-thin">              	
+              </div>
             </fieldset>
             <button type="submit">Показать</button>
           </form>
