@@ -1,5 +1,10 @@
 body {
   font-family: "PT Sans", "Arial", serif;
+  text-transform: uppercase;
+}
+
+a  {
+  text-decoration: none;
 }
 
 /* Главное меню сайта */
@@ -9,30 +14,29 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 26px;
-	text-transform: uppercase;
+
+
 	/* Оформление */
 	list-style-type: none;
 }
 
- .site-navigation-item > a {
+ .site-navigation-item a {
 	/* Типографика */
 	color: #000000;
-	/* Оформление */
-	text-decoration: none;
 }
 
-.site-navigation-item > a:hover {
+.site-navigation-item a:hover {
 	/* Типографика */
 	color: #81b3d2;
 }
 
-.site-navigation-item > a:active {
+.site-navigation-item a:active {
 	/* Типографика */
 	color: #000000;
 	opacity: 0.3;
 }
 
-.site-navigation-item-current > a {
+.site-navigation-item-current a {
 	color: #766357;
 }
 
