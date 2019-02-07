@@ -7,37 +7,72 @@ a  {
   text-decoration: none;
 }
 
-/* Главное меню сайта */
-
-.site-navigation-item {
-	/* Типографика */
+.site-navigation__item {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 26px;
 
-
-	/* Оформление */
 	list-style-type: none;
 }
 
- .site-navigation-item a {
-	/* Типографика */
+ .site-navigation__item a {
 	color: #000000;
 }
 
-.site-navigation-item a:hover {
-	/* Типографика */
+.site-navigation__item a:hover {
 	color: #81b3d2;
 }
 
-.site-navigation-item a:active {
-	/* Типографика */
+.site-navigation__item a:active {
 	color: #000000;
 	opacity: 0.3;
 }
 
-.site-navigation-item-current a {
+.site-navigation__item--current a {
 	color: #766357;
+}
+
+.welcome h1{
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px
+}
+
+.welcome p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #333333;
+}
+
+.features-list {
+	list-style-type: none;
+}
+
+.features-list__item {
+	width: 400px;
+	height: 256px;
+
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
+	text-align: center;
+
+	background-color: #eeeeee;
+}
+
+.features-list__item h3 {
+	font-size: 21px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.features-list__number {	
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #333333;
 }
 
 
