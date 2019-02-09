@@ -36,7 +36,6 @@ a  {
 .site-navigation {			
 	display: flex;
 	justify-content: space-between;
-	align-content: flex-end;
 	margin: 0;
 	padding: 0;	
 	width: 100%;		
@@ -45,14 +44,10 @@ a  {
 
 .site-navigation__item {
 	font-weight: 700;
-  line-height: 26px;
+ 	line-height: 26px;
 	list-style-type: none;
 	border: 0;
 	padding: 15px 0;
-}
-
-.site-navigation__item--right {
-	align-self: flex-end;
 }
 
 .site-navigation__item a {
@@ -76,7 +71,25 @@ a  {
 .main-container {
 	max-width: 1200px;
 	margin: 0 auto; 
-	background-color: yellow;	
+	background-color: #ffffff;	
+}
+
+.welcome {
+	background-image: url('../img/white-polygon.svg'), url('../img/background-photo.jpg');	
+	background-color: #666666;
+	background-repeat: no-repeat;
+	background-position: center bottom, 50% 30%;
+	background-size: 100px, auto;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.welcome img {
+	margin: 0 auto;
+}
+
+.welcome h1 {
+	
 }
 
 .main-footer {
