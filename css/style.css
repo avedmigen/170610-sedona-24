@@ -2,15 +2,24 @@ body {
   font-family: "PT Sans", "Arial", serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 26px;
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;  
   margin: 0;
+  padding: 0;
 }
 
 a  {
   text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .main-header {
@@ -39,12 +48,10 @@ a  {
 	margin: 0;
 	padding: 0;	
 	width: 100%;		
-	border: 1px solid green;
 }
 
 .site-navigation__item {
 	font-weight: 700;
- 	line-height: 26px;
 	list-style-type: none;
 	border: 0;
 	padding: 15px 0;
@@ -75,21 +82,114 @@ a  {
 }
 
 .welcome {
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.welcome__image {
 	background-image: url('../img/white-polygon.svg'), url('../img/background-photo.jpg');	
 	background-color: #666666;
 	background-repeat: no-repeat;
-	background-position: center bottom, 50% 30%;
-	background-size: 100px, auto;
-	text-align: center;
+	background-position: center bottom, 50% 31%;	
 	padding-top: 75px;
 }
 
-.welcome img {
-	margin: 0 auto;
+.welcome__image img {
+	margin: 0 auto;	
+	margin-bottom: 45px;
 }
 
-.welcome h1 {
-	
+.welcome__intro {	
+	margin: 0 auto;	
+	margin-top: 10px;
+}
+
+.welcome__intro h1 {
+	font-size: 21px;
+  font-weight: 700;
+  color: #333333;
+  width: 440px;
+}
+
+.features-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.features-list li:first-child {
+	order: -2;
+}
+
+.features-list li:last-child {
+	order: -1;
+}
+
+.features-list__item {
+	display: flex;
+	flex-direction: row;
+	color: #ffffff;
+	line-height: 21px;
+	text-align: center;
+	max-height: 256px;	
+	background-color: #81b3d2; 
+}
+
+.features-list__text {
+	width: 400px;
+}
+
+.features-list__text h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.features-list__number{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.features-list__item--common {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+.features-list__item--common h4 {
+	color: #000000;
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.features-list__item--common p {
+	color: #333333;
+	font-size: 14px;	
+	font-weight: 400;	
+}
+
+.features-list__item--color {
+	background-color: #eeeeee;
+}
+
+.features-list__text--color h3 {
+	color: #000000;
+}
+
+.features-list__number--color {
+	color: #333333;
+}
+
+.features-list__text--color p {
+	color: #333333;
+	font-size: 14px;	
+	font-weight: 400;	
 }
 
 .main-footer {
@@ -97,39 +197,6 @@ a  {
 	margin: 0 auto;
 	background-color: green;	
 }
-
-.welcome h1{
-	font-weight: 700;
-}
-
-.welcome p {
-	line-height: 26px;
-	color: #333333;
-}
-
-.features-list {
-	list-style-type: none;
-}
-
-.features-list__item {
-	width: 400px;
-	height: 256px;
-	color: #333333;
-	text-align: center;
-
-	background-color: #eeeeee;
-}
-
-.features-list__item h3 {
-	font-weight: 700;
-	color: #000000;
-}
-
-.features-list__number {
-	color: #333333;
-}
-
-
 
 /* Позиционирование */
 /* Блочная модель */

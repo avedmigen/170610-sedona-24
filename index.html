@@ -23,36 +23,55 @@
     </header>
     <main class="main-container">
       <section class="welcome">
-        <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону">
-        <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <div class="welcome__intro">
+        	<h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+        	<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
+        <div class="welcome__image">
+        	<img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону">
+        </div>        
       </section>
       <section class="features">
-      	<h2 class="visually-hidden">Преимущества Седоны</h2>
+      	<h2 class="visually-hidden">Преимущества Седоны</h2>      
         <ol class="features-list">
             <li class="features-list__item">
-                <h3><span class="features-list__number">— №1 —</span> Настоящий городок</h3>
-                <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <img src="img/sedona-real-town.jpg" width="800" height="256" alt="Седона — настоящий городок, в котором течёт своя жизнь">
-            <li class="features-list__item">
-                <h3><span class="features-list__number">— №2 —</span> Там есть Мост дьявола</h3>
-                <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-                <img src="img/devil-s-bridge.jpg" width="800" height="256" alt="Мост дьявола">
+              <div class="features-list__text">
+              	<h3><span class="features-list__number">— №1 —</span> Настоящий городок</h3>
+              	<p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
+              <div class="features-list__image">
+              	<img src="img/sedona-real-town.jpg" width="800" height="256" alt="Седона — настоящий городок, в котором течёт своя жизнь">
+              </div>
             </li>
             <li class="features-list__item">
-              <h3><span class="features-list__number">— №3 —</span> Небольшая площадь</h3>
-              <p>Все достопримечательности находятся очень близко</p>
+              <div class="features-list__text">
+              	<h3><span class="features-list__number">— №2 —</span> Там есть Мост дьявола</h3>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              </div>
+              <div class="features-list__image">
+              	<img src="img/devil-s-bridge.jpg" width="800" height="256" alt="Мост дьявола">
+              </div>
+            </li>
+            <li class="features-list__item features-list__item--color">
+              <div class="features-list__text features-list__text--color">
+              	<h3><span class="features-list__number features-list__number--color">— №3 —</span> Небольшая площадь</h3>
+              	<p>Все достопримечательности находятся очень близко</p>
+              </div>
+            </li>
+            <li class="features-list__item features-list__item--color">
+            	<div class="features-list__text features-list__text--color">
+              	<h3><span class="features-list__number features-list__number--color">— №4 —</span> Красивая дорога</h3>
+              	<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </div>
+            </li>
+            <li class="features-list__item features-list__item--color">
+            	<div class="features-list__text features-list__text--color">
+              	<h3><span class="features-list__number features-list__number--color">— №5 —</span> Мало туристов</h3>
+              	<p>Большинство едет в гранд каньон и толпится там</p>
+              </div>
             </li>
             <li class="features-list__item">
-              <h3><span class="features-list__number">— №4 —</span> Красивая дорога</h3>
-              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="features-list__item">
-              <h3><span class="features-list__number">— №5 —</span> Мало туристов</h3>
-              <p>Большинство едет в гранд каньон и толпится там</p>
-            </li>
-            <li class="features-list__common">
-              <ul>
+              <ul class="features-list__item--common">
                 <li>
                   <h4>Жильё</h4>
                   <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
@@ -102,7 +121,7 @@
       </section>
       <section class="map">
         <h2 class="visually-hidden">Карта Седоны</h2>
-        <!-- Тут будет код карты Гугл -->
+        	<img src="img/map.jpg" width="1200" height="594" alt="Карта городка Седона">
       </section>
     </main>
     <footer class="main-footer">
