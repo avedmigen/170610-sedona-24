@@ -252,6 +252,56 @@ a  {
 .search-hotel-form input {
 	background-color: #f2f2f2;
 	border: none;
+	padding-left: 15px;
+	padding-top: 14px;
+	padding-bottom: 13px;
+}
+
+.search-hotel-form input:hover {
+	background-color: #ebebeb;
+}
+
+.search-hotel-form input:focus {
+	background-color: #ffffff;
+	border: 1px solid #E6E6E6;
+	outline: none;
+}
+
+.form-button {
+	padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none; 
+}
+
+.calendar-button{
+}
+
+.calendar-button:hover{
+}
+
+.calendar-button:active {
+
+}
+
+.increment-button,
+.decrement-button {
+	font-size: 26px;
+  font-weight: 700;
+	color: #A9A9A9;
+}
+
+.increment-button:hover,
+.decrement-button:hover{
+	color: #0D1F32;
+}
+
+.increment-button:active,
+.decrement-button:active{
+	color: #75AFDB;	
 }
 
 .search-hotel__submit {
@@ -460,12 +510,38 @@ a  {
 	padding: 0;
 }
  
-.footer-social li {
+.footer-social__icon {
 	width: 46px;
 	height: 48px;
 	background-color: #81b3d2;
 	text-align: center;
 	margin-right: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.footer-social__icon:hover {
+	background-color: #669ec0;
+}
+
+/* Не получилось перекрасить текст свг */
+
+.footer-social__icon:active {
+	object-fit: contain;
+  fill: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+} 
+
+.footer-social__twitter {
+	background-image: url('../img/twitter-icon.svg');	
+}
+
+.footer-social__facebook {
+	background-image: url('../img/fb-icon.svg');	
+}
+
+.footer-social__youtube {
+	background-image: url('../img/youtube-icon.svg');	
 }
 
 .footer-copyright {

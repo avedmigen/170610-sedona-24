@@ -98,26 +98,26 @@
           	<p class="search-hotel-arrival-date">
           		<label for="arrival-date">Дата заезда:</label>
             	<input type="text" id="arrival-date" name="arrival-date" value="24 апреля 2017">
-              <button type="button"><img src="img/calendar.svg" alt="Иконка календаря для выбора даты" class="calendar-button"></button>
+              <button type="button" class="form-button calendar-button"><img src="img/calendar.svg" alt="Иконка календаря для выбора даты"></button>
           	</p>
           	<p class="search-hotel-departure-date">
           		<label for="departure-date">Дата выезда:</label>
           		<input type="text" id="departure-date" name="departure-date" value="4 июля 2017">
-              <button type="button"><img src="img/calendar.svg" alt="Иконка календаря для выбора даты" class="calendar-button"></button>
+              <button type="button" class="form-button calendar-button"><img src="img/calendar.svg" alt="Иконка календаря для выбора даты"></button>
           	</p>
           	<p class="search-hotel-adults-number">
               <label for="adults-number">Взрослые:</label>
-              <button type="button" class="decrement-button" aria-label="Уменьшить количество на единицу">-</button>
+              <button type="button" class="form-button decrement-button" aria-label="Уменьшить количество на единицу">-</button>
           		<input type="text" id="adults-number" name="adults-number" placeholder="2">
-              <button type="button" class="increment-button" aria-label="Увеличить количество на единицу">+</button>
+              <button type="button" class="form-button increment-button" aria-label="Увеличить количество на единицу">+</button>
           	</p>
           	<p class="search-hotel-children-number">
           		<label for="children-number">Дети:</label>
-              <button type="button" class="decrement-button" aria-label="Уменьшить количество на единицу">-</button>
+              <button type="button" class="form-button decrement-button" aria-label="Уменьшить количество на единицу">-</button>
           		<input type="text" id="children-number" name="children-number" placeholder="0">
-              <button type="button" class="increment-button" aria-label="Увеличить количество на единицу">+</button>
+              <button type="button" class="form-button increment-button" aria-label="Увеличить количество на единицу">+</button>
           	</p>
-            <button type="submit" class="search-hotel__submit">Найти</button>
+            <button type="submit" class="form-button search-hotel__submit">Найти</button>
           </form>
         </section>
         <section class="map">
@@ -128,18 +128,18 @@
       <footer class="main-footer">
         <p class="footer-hashtag">#visitSEDONA</p>
           <ul class="footer-social">
-            <li class="twitter">
-              <a class="social-button visually-hidden" href="#">Twitter</a>
+            <li class="footer-social__icon footer-social__twitter">
+              <a class="visually-hidden" href="#">Twitter</a>
             </li>
-            <li class="facebook">
-              <a class="social-button visually-hidden" href="#">Фейсбук</a>
+            <li class="footer-social__icon footer-social__facebook">
+              <a class="visually-hidden" href="#">Фейсбук</a>
             </li>
-            <li class="youtube">
-              <a class="social-button visually-hidden" href="#">YouTube</a>
+            <li class="footer-social__icon footer-social__youtube">
+              <a class="visually-hidden" href="#">YouTube</a>
             </li>
           </ul>
         <p class="footer-copyright">
-          Website by <a src="img/html-academy-logo.svg" href="https://htmlacademy.ru/intensive/htmlcss"><img class="htmlacademy-logo" width="115" height="41" alt="Html Academy"></a></p>
+          Website by <a class="htmlacademy-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img class="htmlacademy-logo" src="img/html-academy-logo.svg" width="115" height="41" alt="Html Academy"></a></p>
        </footer>
      </div>
   </body>
