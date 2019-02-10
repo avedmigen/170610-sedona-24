@@ -218,6 +218,8 @@ a  {
 	position: absolute;
 	background-color: #ffffff;
 	box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+	text-align: left;
+	padding: 55px;
 }
 
 .search-hotel__button {
@@ -554,12 +556,20 @@ a  {
 	font-weight: 700;
  }
 
-/* Не получилось перекрасить свг */
- .htmlacademy-logo { 
- 	object-fit: contain;	
-  background-color: #231f20;
+/* Не получилось перекрасить свг ховер и эктив */
+
+ .htmlacademy-logo #Layer_1 { 
+ 	object-fit: contain;
+ 	fill: #231f20;		
  }
 
+ .htmlacademy-logo #Layer_1:hover{ 
+ 	fill: #81b3d2;		
+ }
+
+ .htmlacademy-logo #Layer_1:active { 
+ 	fill: #231f20;		
+ }
 
 /* Позиционирование */
 /* Блочная модель */
