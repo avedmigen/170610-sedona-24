@@ -43,27 +43,27 @@ a  {
 }
 
 .main-navigation {
-	position: relative;
-}
-
-.main-navigation-logo {
+  text-align: center;
 }
 
 .site-navigation {
 	margin: 0;
-	width: 100%;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #e5e5e5;
+  width: 100%;
 }
 
 .site-navigation__item {
-	font-weight: 700;
-	list-style-type: none;
+  display: inline;
+  margin-right: 5px;
+  font-weight: 700;
 	border: 0;
 	padding: 15px 0;
 }
 
 .site-navigation__item a {
-	color: #000000;
-	display: block;
+  color: #000000;
 }
 
 .site-navigation__item a:hover {
