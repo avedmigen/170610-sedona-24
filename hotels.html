@@ -31,19 +31,16 @@
                 <legend>Инфраструктура:</legend>
   	              <ul>
   	              	<li>
-  	              		<label>Бассейн
-  	              			<input type="checkbox" id="pool" name="pool" checked>
-  	              		</label>
+  	              		<input type="checkbox" id="pool" name="pool" checked>
+                        <label for="pool">Бассейн</label>
   	              	</li>
   	              	<li>
-  	              		<label>Парковка
-  	              			<input type="checkbox" id="parking" name="parking">
-  	              		</label>
+  	              		<input type="checkbox" id="parking" name="parking">
+                        <label for="parking">Парковка</label>
   	              	</li>
   	              	<li>
-  	              		<label>Wi-Fi
-  	              			<input type="checkbox" id="wi-fi" name="wi-fi">
-  	              		</label>
+  	              		<input type="checkbox" id="wi-fi" name="wi-fi">
+                        <label for="wi-fi">Wi-Fi</label>
   	              	</li>
   	              </ul>
               </fieldset>
@@ -51,38 +48,29 @@
                 <legend>Тип жилья:</legend>
                 <ul>
                 	<li>
-                		<label>
-                			Гостиницa
-                				<input type="checkbox" id="hotel" name="hotel" checked>
-                		</label>
+                		<input type="checkbox" id="hotel" name="hotel" checked>
+                      <label for="hotel">Гостиницa</label>
                 	</li>
                 	<li>
-                		<label>
-                			Мотель
-                			<input type="checkbox" id="motel" name="motel" checked>
-                		</label>
+                		<input type="checkbox" id="motel" name="motel" checked>
+                      <label for="motel">Мотель</label>
                 	</li>
                 	<li>
-                		<label>
-                			Апартаменты
-                			<input type="checkbox" id="apartment" name="apartment" checked>
-                		</label>
+                		<input type="checkbox" id="apartment" name="apartment" checked>
+                      <label for="apartment">Апартаменты</label>
                 	</li>
                 </ul>
               </fieldset>
               <fieldset>
                 <legend>Стоимость в сутки (р):</legend>
-                <label>
-                	<input type="text" id="min-cost" name="min-cost" placeholder="От 0">
-                </label>
-                <label>
-                	<input type="text" id="max-cost" name="max-cost" placeholder="До 3000">
-                </label>
+                <label for="min-cost">От</label>
+                	<input type="text" id="min-cost" name="min-cost" value="0">             <input type="text" id="max-cost" name="max-cost" value="3000">
+                <label for="max-cost">До</label>
                 <div class="range-line-wrapper">
-                  <button type="button" class="form-button min-range"><img src="img/filter-button.svg" width="20" height="22" alt="Ползунок для выбора минимальной стоимости аренды гостиницы в Седоне в сутки"></button>
+                  <button type="button" class="form-button min-range" aria-label="Ползунок для выбора минимальной стоимости аренды гостиницы в Седоне в сутки">Ползунок мин стоимости - временно</button>
                 	<div class="possible-range"></div>
                   <div class="selected-range"></div>
-                  <button type="button" class="form-button max-range"><img src="img/filter-button.svg" width="20" height="22" alt="Ползунок для выбора максимальной стоимости аренды гостиницы в Седоне в сутки"></button>
+                  <button type="button" class="form-button max-range" aria-label="Ползунок для выбора максимальной стоимости аренды гостиницы в Седоне в сутки">Ползунок макс стоимости - временно</button>
                 </div>
               </fieldset>
               <button type="submit" class="form-button">Показать</button>
@@ -116,7 +104,7 @@
         	<ul class="filter-results__items">
         		<li class="filter-result-item">
       				<img class="filter-result-item__image" src="img/amara-resort-spa.jpg" width="135" height="90" alt="Amara Resort & Spa">
-              <a class="filter-result-item__name" href="#"><h3>Amara Resort & Spa</h3></a>   				
+              <a class="filter-result-item__name" href="#"><h3>Amara Resort & Spa</h3></a>
       				<p class="filter-result-item__type">Гостиница<p>
       				<p class="filter-result-item__price">Oт 4000 р.</p>
       				<span class="filter-result-item__stars" aria-label="Количество звёзд у отеля">4</span>
@@ -126,7 +114,7 @@
         		</li>
         		<li class="filter-result-item">
               <img class="filter-result-item__image" src="img/desert-quail-inn.jpg" width="135" height="90" alt="Desert Quail Inn">
-      				<a class="filter-result-item__name" href="#"><h3>Desert Quail Inn</h3></a>      				
+      				<a class="filter-result-item__name" href="#"><h3>Desert Quail Inn</h3></a>
       				<p class="filter-result-item__type">Мотель</p>
       				<p class="filter-result-item__price">От 3000 Р.</p>
               <span class="filter-result-item__stars" aria-label="Количество звёзд у отеля">3</span>
@@ -136,7 +124,7 @@
         		</li>
         		<li class="filter-result-item">
               <img class="filter-result-item__image" src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt="Villas at Poco Diablo">
-      				<a class="filter-result-item__name" href="#"><h3>Villas at Poco Diablo</h3></a> 
+      				<a class="filter-result-item__name" href="#"><h3>Villas at Poco Diablo</h3></a>
       				<p class="filter-result-item__type">Апартаменты</p>
       				<p class="filter-result-item__price">От 2000 Р.</p>
               <span class="filter-result-item__stars" aria-label="Количество звёзд у отеля">2</span>
@@ -160,9 +148,9 @@
               <a class="visually-hidden" href="#">YouTube</a>
             </li>
           </ul>
-        <p class="footer-copyright">Website by 
+        <p class="footer-copyright">Website by
           <a href="https://htmlacademy.ru/intensive/htmlcss" class="htmlacademy-logo">
-            <object type="image/svg+xml" data="img/logo-htmlacademy.svg" width="115" height="41">          
+            <object type="image/svg+xml" data="img/logo-htmlacademy.svg" width="115" height="41">
               Логотип HTML Academy в формате svg
             </object>
           </a>
