@@ -503,12 +503,10 @@ a  {
 
 .footer-social {
 	display: flex;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
 .footer-social__icon {
+  display: block;
 	width: 46px;
 	height: 48px;
 	background-color: #81b3d2;
