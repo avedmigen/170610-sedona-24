@@ -48,9 +48,8 @@ a  {
 
 .site-navigation {
 	margin: 0;
-  padding: 0;
+  padding: 22px 72px;
   list-style-type: none;
-  border: 1px solid #e5e5e5;
   width: 100%;
 }
 
