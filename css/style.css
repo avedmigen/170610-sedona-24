@@ -33,7 +33,6 @@ a  {
  	max-width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-
  }
 
 .main-header {
@@ -74,7 +73,7 @@ a  {
 	opacity: 0.3;
 }
 
-.site-navigation__item--current a {
+.site-navigation__item--current {
 	color: #766357;
 }
 
