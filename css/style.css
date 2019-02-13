@@ -525,6 +525,8 @@ a  {
 
 .main-footer__social {
 	display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .main-footer__hashtag {
