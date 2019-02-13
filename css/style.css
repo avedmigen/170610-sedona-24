@@ -207,7 +207,7 @@ a  {
 }
 
 .search-hotel {
-	text-align: center;
+  text-align: center;
 }
 
 .search-hotel h2 {
@@ -220,17 +220,15 @@ a  {
 	color: #333333;
 }
 
-.search-hotel-form {
-	position: absolute;
-	background-color: #ffffff;
-	box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
-	text-align: left;
-	padding: 55px;
+.search-hotel__wrapper {
+  position: relative;
+  width: 568px;
+  border: 2px solid red;
 }
+
 
 .search-hotel__button {
 	display: block;
-	width: 568px;
   background-color: #766357;
   color: #ffffff;
   font-size: 21px;
@@ -275,6 +273,13 @@ a  {
 	background-color: #ffffff;
 	border: 1px solid #E6E6E6;
 	outline: none;
+}
+
+.search-hotel-form {
+  background-color: #ffffff;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+  text-align: left;
+  padding: 55px;
 }
 
 .map__image {
