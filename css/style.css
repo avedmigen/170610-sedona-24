@@ -410,8 +410,7 @@ a  {
 .filter-hotel-form ul,
 .filter-result-sort__options,
 .filter-result-range__options,
-.filter-results__items,
-.main-footer__social {
+.filter-results__items {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -533,14 +532,21 @@ a  {
 .main-footer__item {
   width: 400px;
   text-align: center;
-  border: 1px solid red;
 }
 
 .main-footer__social {
 	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
   text-align: center;
   justify-content: center;
-}
+  } 
+
+.main-footer__social--item {
+	margin-top: auto;
+	margin-bottom: auto;
+}  
 
 .main-footer__hashtag {
   color: #000000;
