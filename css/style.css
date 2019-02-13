@@ -563,7 +563,7 @@ a  {
   background-color: #5496bd;
 }
 
-.main-footer__social--icon path:active {
+.main-footer__social--icon:active path {
   fill: rgba(255, 255, 255, 0.3);
 }
 
@@ -571,11 +571,11 @@ a  {
  	fill: #231f20;
 }
 
-.main-footer__logo path:hover {
+.main-footer__logo:hover path {
  	fill: #81b3d2;
 }
 
-.main-footer__logo path:active {
+.main-footer__logo:active path {
  	fill: #bdbbbc;
 }
 
