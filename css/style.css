@@ -13,8 +13,8 @@ body {
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
-  background-color: #f2f2f2;
   margin: 0;
+  background-color: #f2f2f2;
 }
 
 a  {
@@ -56,7 +56,6 @@ a  {
   display: flex;
 	margin: 0;
   list-style-type: none;
-  width: 100%;
 }
 
 .site-navigation__item {
@@ -566,23 +565,18 @@ a  {
   fill: rgba(255, 255, 255, 0.3);
 }
 
-
-
-
-/* Не получилось перекрасить свг ховер и эктив
-
- .htmlacademy-logo #Layer_1 {
+.main-footer__logo {
  	fill: #231f20;
- }
+}
 
- .htmlacademy-logo #Layer_1:hover{
+.main-footer__logo path:hover {
  	fill: #81b3d2;
- }
+}
 
- .htmlacademy-logo #Layer_1:active {
- 	fill: #231f20;
- }
- */
+.main-footer__logo path:active {
+ 	fill: #bdbbbc;
+}
+
 
 /* Позиционирование */
 /* Блочная модель */
