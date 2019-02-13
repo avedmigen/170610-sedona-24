@@ -306,14 +306,16 @@ a  {
   outline: none;
 }
 
-.calendar-button{
+.calendar-button path{
+	fill: #cacaca;
 }
 
-.calendar-button:hover{
+.calendar-button:hover path{
+	fill: #000000;
 }
 
-.calendar-button:active {
-
+.calendar-button:active path{
+	fill: #81b3d2;
 }
 
 .increment-button,
