@@ -538,15 +538,15 @@ a  {
 	display: flex;
 	margin: 0;
 	padding: 0;
-	list-style-type: none; 
+	list-style-type: none;
   text-align: center;
   justify-content: center;
-  } 
+  }
 
 .main-footer__social--item {
 	margin-top: auto;
 	margin-bottom: auto;
-}  
+}
 
 .main-footer__hashtag {
   color: #000000;
@@ -602,6 +602,11 @@ a  {
  	fill: #bdbbbc;
 }
 
+/* Фильтр выбрать гостиницу в Седоне */
+
+.filter-hotel-form fieldset {
+  border: none;
+}
 
 /* Позиционирование */
 /* Блочная модель */
