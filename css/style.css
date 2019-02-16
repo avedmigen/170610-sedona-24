@@ -610,22 +610,6 @@ a  {
 
 /* Карточки найденных отелей */
 
-.filter-result-item > * > * {
- 	background-color: rgba(255, 255, 0, 0.5)
-}
-
-.filter-result-item > * > * > * {
- 	background-color: rgba(255, 55, 255, 0.5)
-}
-
-.filter-result-item > * > * > * > *{
- 	background-color: rgba(0, 255, 255, 0.5)
-}
-
-.filter-result-item > * > * > * > * > *{
- 	background-color: rgba(0, 55, 255, 0.5)
-}
-
 .filter-results__list {
   list-style-type: none;
   margin: 0;
