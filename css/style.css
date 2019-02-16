@@ -455,10 +455,31 @@ a  {
 	line-height: 21px;
 }
 
+.filter-result-item__intro {
+	display: flex;
+	width: 280px;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
 .filter-result-item__name {
 	font-size: 21px;
 	font-weight: 700;
 	color: #000000;
+}
+
+.filter-result-item__name h3 {
+	margin-top: 0;
+	margin-bottom: 17px;
+}
+
+.filter-result-item__intro p {
+	margin-top: 0;
+	margin-bottom: 17px;
+}
+
+.filter-result-item__type {
+	margin-right: 21px;
 }
 
 .filter-result-item__name:hover {
@@ -507,6 +528,41 @@ a  {
 .filter-result-item__button--more-about--book:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;
+}
+
+.filter-result-item__rank {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.filter-result-item__stars-wrapper {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+
+.filter-result-item__stars {
+	background-image: url('../img/star.svg');
+	background-position: center center;
+	background-repeat: space;
+	height: 18px;
+}
+
+.filter-result-item__stars--four {
+	width: 72px;
+}
+
+.filter-result-item__stars--three {
+	width: 54px;
+}
+
+.filter-result-item__stars--two {
+	width: 36px;
+}
+
+.filter-result-item__rating {
+	margin-bottom: 0px;
 }
 
 .filter-result-item__rating {
@@ -641,7 +697,7 @@ a  {
 .filter-result-item {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: stretch;
 }
 
 .filter-result-item__image {
@@ -653,9 +709,9 @@ a  {
 }
 
 .filter-result-item__description {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-right: auto;
 }
 
 /* Позиционирование */
