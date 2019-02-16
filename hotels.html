@@ -64,7 +64,8 @@
             <fieldset>
               <legend>Стоимость в сутки (р):</legend>
               <label for="min-cost">От</label>
-              <input type="text" id="min-cost" name="min-cost" value="0">             <input type="text" id="max-cost" name="max-cost" value="3000">
+              <input type="text" id="min-cost" name="min-cost" value="0">
+              <input type="text" id="max-cost" name="max-cost" value="3000">
               <label for="max-cost">До</label>
               <div class="range-line-wrapper">
                 <button type="button" class="form-button min-range" aria-label="Ползунок для выбора минимальной стоимости аренды гостиницы в Седоне в сутки">Ползунок мин стоимости - временно</button>
@@ -107,18 +108,20 @@
                 <img src="img/amara-resort-spa.jpg" width="135" height="90" alt="Amara Resort & Spa">
               </div>
               <div class="filter-result-item__description">
-                <a class="filter-result-item__name" href="#"><h3>Amara Resort & Spa</h3></a>
-                <p class="filter-result-item__type">Гостиница<p>
-                <p class="filter-result-item__price">Oт 4000 р.</p>
-              </div>
-              <div class="filter-result-item__rank">
-                <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">4</p>
-                <p class="filter-result-item__rating">Рейтинг: 8,5</p>
-              </div>
-              <div class="filter-result-item__links">
-                <a href="#" class="filter-result-item__button
-                  filter-result-item__button--more-about">Подробнее</a>
-                <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
+                <div class="filter-result-item__intro">
+                  <a class="filter-result-item__name" href="#"><h3>Amara Resort & Spa</h3></a>
+                  <p class="filter-result-item__type">Гостиница</p>
+                  <p class="filter-result-item__price">Oт 4000 р.</p>
+                </div>
+                <div class="filter-result-item__rank">
+                  <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">4</p>
+                  <p class="filter-result-item__rating">Рейтинг: 8,5</p>
+                </div>                
+                <div class="filter-result-item__links">
+                  <a href="#" class="filter-result-item__button
+                    filter-result-item__button--more-about">Подробнее</a>
+                  <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
+                </div>
               </div>
             </li>
             <li class="filter-result-item">
@@ -126,35 +129,39 @@
                 <img src="img/desert-quail-inn.jpg" width="135" height="90" alt="Desert Quail Inn">
               </div>
               <div class="filter-result-item__description">
-                <a class="filter-result-item__name" href="#"><h3>Desert Quail Inn</h3></a>
-                <p class="filter-result-item__type">Мотель</p>
-                <p class="filter-result-item__price">От 3000 Р.</p>
-              </div>
-              <div class="filter-result-item__rank">
-                <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">3</p>
-                <p class="filter-result-item__rating">Рейтинг: 8,9</p>
-              </div>
-              <div class="filter-result-item__links">
-                <a href="#" class="filter-result-item__button filter-result-item__button--more-about">Подробнее</a>
-                <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
-              </div>
+                <div class="filter-result-item__intro">
+                  <a class="filter-result-item__name" href="#"><h3>Desert Quail Inn</h3></a>
+                  <p class="filter-result-item__type">Мотель</p>
+                  <p class="filter-result-item__price">От 3000 Р.</p>
+                </div>
+                <div class="filter-result-item__rank">
+                  <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">3</p>
+                  <p class="filter-result-item__rating">Рейтинг: 8,9</p>
+                </div>
+                <div class="filter-result-item__links">
+                  <a href="#" class="filter-result-item__button filter-result-item__button--more-about">Подробнее</a>
+                  <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
+                </div>
+              </div> 
             </li>
               <li class="filter-result-item">
                 <div class="filter-result-item__image">
                   <img src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt="Villas at Poco Diablo">
                 </div>
                 <div class="filter-result-item__description">
-                  <a class="filter-result-item__name" href="#"><h3>Villas at Poco Diablo</h3></a>
-                  <p class="filter-result-item__type">Апартаменты</p>
-                  <p class="filter-result-item__price">От 2000 Р.</p>
-                </div>
-                <div class="filter-result-item__rank">
-                  <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">2</p>
-                  <p class="filter-result-item__rating">Рейтинг: 9,2</p>
-                </div>
-                <div class="filter-result-item__links">
-                  <a href="#" class="filter-result-item__button filter-result-item__button--more-about">Подробнее</a>
-                  <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
+                  <div class="filter-result-item__intro">
+                    <a class="filter-result-item__name" href="#"><h3>Villas at Poco Diablo</h3></a>
+                    <p class="filter-result-item__type">Апартаменты</p>
+                    <p class="filter-result-item__price">От 2000 Р.</p>
+                  </div>
+                  <div class="filter-result-item__rank">
+                    <p class="filter-result-item__stars" aria-label="Количество звёзд у отеля">2</p>
+                    <p class="filter-result-item__rating">Рейтинг: 9,2</p>
+                  </div>
+                  <div class="filter-result-item__links">
+                    <a href="#" class="filter-result-item__button filter-result-item__button--more-about">Подробнее</a>
+                    <a href="#" class="filter-result-item__button filter-result-item__button--more-about--book">Забронировать</a>
+                  </div>
                 </div>
             </li>
         </ul>
