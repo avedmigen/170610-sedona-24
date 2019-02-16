@@ -527,11 +527,16 @@ a  {
   display: flex;
 	opacity: 0.9;
 	background-color: #ffffff;
+	padding-top: 34px;
+	padding-bottom: 34px;
 }
 
 .main-footer__item {
   width: 400px;
-  text-align: center;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-footer__social {
@@ -572,6 +577,14 @@ a  {
   display: block;
   width: 46px;
   height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.main-footer__social--icon svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .main-footer__social--icon:hover {
@@ -600,6 +613,15 @@ a  {
 
 .main-footer__logo:active path {
  	fill: #bdbbbc;
+}
+
+.main-footer__item--dev {
+	display: inherit;
+	align-items: center;
+}
+
+.main-footer__item--dev p {
+	margin-right: 8px;
 }
 
 /* Фильтр выбрать гостиницу в Седоне */
@@ -635,13 +657,6 @@ a  {
 	display: flex;
 	flex-direction: column;
 }
-
-.filter-result-item__name h3 {
-	
-}
-
-
-
 
 /* Позиционирование */
 /* Блочная модель */

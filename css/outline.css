@@ -1,4 +1,7 @@
 /* Карточки найденных отелей */
+.filter-result-item > * {
+ 	background-color: rgba(246, 150, 52, 0.5)
+}
 
 .filter-result-item > * > * {
  	background-color: rgba(255, 255, 0, 0.5)
@@ -16,7 +19,11 @@
  	background-color: rgba(0, 55, 255, 0.5)
 }
 
-/* Футер */
+/* Футер 
+
+.main-footer > * {
+ 	background-color: rgba(246, 150, 52, 0.5)
+}
 
 .main-footer > * > * {
  	background-color: rgba(255, 255, 0, 0.5)
@@ -33,3 +40,4 @@
 .main-footer > * > * > * > * > *{
  	background-color: rgba(0, 55, 255, 0.5)
 }
+*/
