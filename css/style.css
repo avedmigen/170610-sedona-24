@@ -480,7 +480,14 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 }
 
-.filter-result-item__name h3,
+.filter-result-item__name h3 {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .filter-result-item__intro p {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -541,17 +548,15 @@ input[type="radio"].visually-hidden {
 	justify-content: space-between;
 }
 
-.filter-result-item__stars-wrapper {
-	margin-top: 0px;
-	margin-left: auto;
-	margin-bottom: 0;
-}
 
 .filter-result-item__stars {
 	background-image: url('../img/star.svg');
 	background-position: center center;
 	background-repeat: space;
 	height: 18px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-bottom: 0;
 }
 
 .filter-result-item__stars--four {
