@@ -96,7 +96,8 @@ a  {
 }
 
 .site-navigation__item--right {
-	padding-left: 72px;
+	padding-right: 72px;
+	text-align: right;
 }
 
 .site-navigation__item--left:nth-child(2) {
