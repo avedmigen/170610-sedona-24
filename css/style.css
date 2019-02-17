@@ -377,7 +377,7 @@ input[type="radio"].visually-hidden {
 /* Страница выбора гостиниц */
 
 .hotels-filter {
-	background-image: url('../img/filter-background.jpg');
+	/*background-image: url('../img/filter-background.jpg');*/
 	background-color: #263238;
 	padding-left: 72px;
 	padding-right: 72px;
@@ -420,8 +420,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-hotel-form ul,
-.filter-result-sort__options,
-.filter-result-range__options {
+.filter-result-sort__options {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -455,6 +454,9 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-result-item {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	border-bottom: 1px solid rgba(0, 1, 1, 0.2);
@@ -478,14 +480,10 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 }
 
-.filter-result-item__name h3 {
-	margin-top: 0;
-	margin-bottom: 17px;
-}
-
+.filter-result-item__name h3,
 .filter-result-item__intro p {
 	margin-top: 0;
-	margin-bottom: 17px;
+	margin-bottom: 0;
 }
 
 .filter-result-item__type {
@@ -543,13 +541,13 @@ input[type="radio"].visually-hidden {
 .filter-result-item__rank {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .filter-result-item__stars-wrapper {
 	margin-top: 0px;
 	margin-left: auto;
-	margin-bottom: auto;
+	margin-bottom: 0;
 }
 
 .filter-result-item__stars {
@@ -704,12 +702,6 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 
-.filter-result-item {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-}
-
 .filter-result-item__image {
 	margin-right: 30px;
 }
@@ -721,6 +713,7 @@ input[type="radio"].visually-hidden {
 .filter-result-item__description {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	margin-right: auto;
 }
 
