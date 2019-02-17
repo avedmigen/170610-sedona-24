@@ -510,30 +510,27 @@ input[type="radio"].visually-hidden {
 	padding-left: 17px;
 	padding-right: 17px;
 	margin-right: 7px;
-}
-
-.filter-result-item__button--more-about {
 	background-color: #81B3D2;
 }
 
-.filter-result-item__button--more-about:hover {
+.filter-result-item__button:hover {
 	background-color: #669ec0;
 }
 
-.filter-result-item__button--more-about:active {
+.filter-result-item__button:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #5496bd;
 }
 
-.filter-result-item__button--more-about--book {
+.filter-result-item__button--book {
 	background-color: #766357;
 }
 
-.filter-result-item__button--more-about--book:hover {
+.filter-result-item__button--book:hover {
 	background-color: #604e43;
 }
 
-.filter-result-item__button--more-about--book:active {
+.filter-result-item__button--book:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;
 }
@@ -608,7 +605,6 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-  text-align: center;
   justify-content: center;
   }
 
