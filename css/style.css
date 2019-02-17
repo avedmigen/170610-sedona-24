@@ -474,16 +474,11 @@ input[type="radio"].visually-hidden {
 	flex-direction: row;
 }
 
-.filter-result-item__name {
-	font-size: 21px;
-	font-weight: 700;
-	color: #000000;
-}
-
 .filter-result-item__name h3 {
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
+	color: #000000;
 	margin-top: 0;
 	margin-bottom: 0;
 }

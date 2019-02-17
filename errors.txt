@@ -60,7 +60,8 @@ https://monosnap.com/file/sg4axFYlZIxt6KbWuFrTKpU01AggtE
 https://monosnap.com/file/XCwocQ7NwLaYwvazPeaMDZvrYZBrWc
 
 TODO:
-1. Дополнить класс вижуали хидден из лекции. Сейчас урезанный.
+1. СДЕЛАНО Дополнить класс вижуали хидден из лекции. Сейчас урезанный.
+2. Аня - Также напоминаю, что на главной странице футер наложен поверх карты
 
 TODO от наставника из Скайпа:
 
