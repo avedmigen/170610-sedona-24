@@ -377,7 +377,7 @@ input[type="radio"].visually-hidden {
 /* Страница выбора гостиниц */
 
 .hotels-filter {
-	/*background-image: url('../img/filter-background.jpg');*/
+	background-image: url('../img/filter-background.jpg');
 	background-color: #263238;
 	padding-left: 72px;
 	padding-right: 72px;
