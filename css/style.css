@@ -586,8 +586,7 @@ input[type="radio"].visually-hidden {
 
  .main-footer {
   display: flex;
-	opacity: 0.9;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.9);
 	padding-top: 34px;
 	padding-bottom: 34px;
 }
