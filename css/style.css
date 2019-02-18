@@ -607,11 +607,6 @@ input[type="radio"].visually-hidden {
   justify-content: center;
   }
 
-.main-footer__social--item {
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
 .main-footer__hashtag {
   color: #000000;
   font-size: 21px;
@@ -629,7 +624,8 @@ input[type="radio"].visually-hidden {
 
 .main-footer__social--item {
 	background-color: #81b3d2;
-	margin-right: 5px;
+	margin-right: 2.5px;
+  margin-left: 2.5px;
 }
 
 .main-footer__social--icon {
