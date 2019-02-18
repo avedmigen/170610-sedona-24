@@ -663,8 +663,8 @@ input[type="radio"].visually-hidden {
 	display: block;
 	width: 115px;
 	height: 41px;
-	margin: 0 auto;
  	fill: #231f20;
+  margin-left: 8px;
 }
 
 .main-footer__logo:hover path {
@@ -675,14 +675,6 @@ input[type="radio"].visually-hidden {
  	fill: #bdbbbc;
 }
 
-.main-footer__item--dev {
-	display: inherit;
-	align-items: center;
-}
-
-.main-footer__item--dev p {
-	margin-right: 8px;
-}
 
 /* Фильтр выбрать гостиницу в Седоне */
 
