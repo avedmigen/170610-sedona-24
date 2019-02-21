@@ -402,15 +402,11 @@ input[type="radio"].visually-hidden {
 	font-weight: 700;
 }
 
-.filter-results-common,
-.filter-result-sort__options {
-	display: flex;
-}
-
 .filter-results-common {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
+	display: flex;
 	padding: 32px 36px 34px 32px;
 	border-bottom: 1px solid rgba(0, 1, 1, 0.2);
 
@@ -425,8 +421,27 @@ input[type="radio"].visually-hidden {
 	margin-right: 43px ;
 }
 
-.filter-hotel-form ul,
 .filter-result-sort__options {
+	display: flex;	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter-result-sort__options--right {
+	margin-left: auto;
+}
+
+.sort-option__item--left {
+	margin-right: 33px;
+}
+
+
+.sort-option__item--right {
+	margin-left: 33px;
+}
+
+.filter-hotel-form ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -434,10 +449,6 @@ input[type="radio"].visually-hidden {
 
 .filter-result-sort {
 	margin-right: 40px;
-}
-
-.sort-option__item {
-	margin-right: 33px;
 }
 
 .sort-option__item a {
