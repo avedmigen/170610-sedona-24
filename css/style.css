@@ -436,9 +436,19 @@ input[type="radio"].visually-hidden {
 	margin-right: 33px;
 }
 
-
 .sort-option__item--right {
-	margin-left: 33px;
+	margin-left: 12px;
+}
+
+.sort-option__item--right polygon {
+  fill: #cacaca;
+}
+.sort-option__item--right--current svg {
+	transform: rotate(180deg);
+}
+
+.sort-option__item--right--current polygon {  
+  fill: #81b3d2;
 }
 
 .filter-hotel-form ul {
