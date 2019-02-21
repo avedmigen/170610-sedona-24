@@ -443,6 +443,15 @@ input[type="radio"].visually-hidden {
 .sort-option__item--right polygon {
   fill: #cacaca;
 }
+
+.sort-option__item--right:hover polygon {
+  fill: #231F20;
+}
+
+.sort-option__item--right:active polygon {
+  fill: #81b3d2;
+}
+
 .sort-option__item--right--current svg {
 	transform: rotate(180deg);
 }
