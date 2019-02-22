@@ -204,6 +204,12 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
+.features-list__item--common li {
+  width: 400px;
+  padding: 60px 47px 70px;
+}
+
+
 .features-list__item--common h4 {
 	font-size: 21px;
 	font-weight: 700;
