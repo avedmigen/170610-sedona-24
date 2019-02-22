@@ -402,7 +402,7 @@ input[type="radio"].visually-hidden {
 	font-weight: 700;
 }
 
-.filter-results-common {
+.filter-results__wrapper {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
@@ -414,21 +414,21 @@ input[type="radio"].visually-hidden {
 	padding-right: 72px;
 }
 
-.filter-result-found {
+.filter-results__found {
 	color: #000000;
 	font-size: 21px;
 	font-weight: 700;
 	margin-right: 43px ;
 }
 
-.filter-result-sort__options {
+.filter-result__item {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.filter-result-sort__options--right {
+.filter-result__item--right {
 	margin-left: auto;
 }
 
@@ -466,7 +466,7 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 }
 
-.filter-result-sort {
+.filter-result__sort {
 	margin-right: 40px;
 }
 
