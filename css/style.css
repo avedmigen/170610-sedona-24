@@ -422,7 +422,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-result-sort__options {
-	display: flex;	
+	display: flex;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -456,7 +456,7 @@ input[type="radio"].visually-hidden {
 	transform: rotate(180deg);
 }
 
-.sort-option__item--right--current polygon {  
+.sort-option__item--right--current polygon {
   fill: #81b3d2;
 }
 
@@ -619,7 +619,7 @@ input[type="radio"].visually-hidden {
 
  .main-footer {
   display: flex;
-  background-color: rgba(255,255,255,0.9);
+  background-color: #FFFFFF;
   padding-top: 34px;
   padding-bottom: 34px;
 }
@@ -627,6 +627,7 @@ input[type="radio"].visually-hidden {
  .main-footer--indexpage {
   position: absolute;
   bottom: 0;
+  background-color: rgba(255,255,255,0.9);
 }
 
 .main-footer__item {
