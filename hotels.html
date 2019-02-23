@@ -61,22 +61,21 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="filter-hotel-form__lastcolumn">
-              <fieldset>
-                <legend>Стоимость в сутки (р):</legend>
-                <label for="min-cost">От</label>
-                <input type="text" id="min-cost" name="min-cost" value="0">
-                <input type="text" id="max-cost" name="max-cost" value="3000">
-                <label for="max-cost">До</label>
-                <div class="range-line-wrapper">
-                  <button type="button" class="form-button min-range" aria-label="Ползунок для выбора минимальной стоимости аренды гостиницы в Седоне в сутки">Ползунок мин стоимости - временно</button>
-                  <div class="possible-range"></div>
-                  <div class="selected-range"></div>
-                  <button type="button" class="form-button max-range" aria-label="Ползунок для выбора максимальной стоимости аренды гостиницы в Седоне в сутки">Ползунок макс стоимости - временно</button>
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
                 </div>
-              </fieldset>
-              <button type="submit" class="form-button">Показать</button>
-            </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <button class="btn-transparent" type="submit">Показать</button>
+            </div> 
           </form>
         </section>
         <section class="filter-results">
