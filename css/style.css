@@ -236,7 +236,22 @@ input[type="radio"].visually-hidden {
 
 .features-list__item--common li {
   width: 400px;
-  padding: 60px 47px 70px;
+  padding: 134px 47px 70px;
+  background-repeat: no-repeat;
+  background-position: 50% 60px;
+  background-size: auto auto;
+}
+
+.features-list__item--common li:first-child {
+	background-image: url('../img/housing-icon.svg')
+}
+
+.features-list__item--common li:nth-child(2) {
+	background-image: url('../img/food-icon.svg')
+}
+
+.features-list__item--common li:last-child {
+	background-image: url('../img/souvenir-icon.svg')
 }
 
 
