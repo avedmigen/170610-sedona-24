@@ -186,6 +186,10 @@ input[type="radio"].visually-hidden {
 	width: 400px;
 }
 
+.features-list__text--right {
+	order: 1;
+}
+
 .features-list__text h3 {
 	font-size: 21px;
 	font-weight: 700;
