@@ -294,7 +294,7 @@ input[type="radio"].visually-hidden {
 
 .search-hotel-form input {
 	background-color: #f2f2f2;
-	border: none;
+	border: 2px solid transparent;
 	padding-left: 15px;
 	padding-top: 14px;
 	padding-bottom: 13px;
@@ -302,7 +302,7 @@ input[type="radio"].visually-hidden {
 
 .search-hotel-form input:focus {
   background-color: #ffffff;
-  border: 1px solid #E6E6E6;
+  border: 2px solid #E6E6E6;
   outline: none;
 }
 
