@@ -498,11 +498,12 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	line-height: 21px;
 	padding-top: 30px;
-	padding-bottom: 30px;
 }   
 
 .filter-hotel-form li {
 	position: relative;
+	padding-left: 17px;
+	margin-bottom: 36px;
 }
 
 .filter-hotel-form legend {	
@@ -526,7 +527,7 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:hover + label::before {
   content: "";
   position: absolute;
-  left: -12px;
+  left: -13px;
   top: 0;
 
   width: 23px;
