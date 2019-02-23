@@ -289,14 +289,11 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	width: 568px;
 	flex-wrap: wrap;
-
 	position: absolute;
 	background-color: #ffffff;
 	box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
-
-	padding-left: 55px;
-	padding-top: 55px;
-	padding-bottom: 55px;
+	padding: 55px;
+	text-align: left;
 }
 
 .search-hotel-form label,
@@ -324,14 +321,24 @@ input[type="radio"].visually-hidden {
 }
 
 .search-hotel-form__input--long {
-	width: 386px;
 	padding-left: 15px;
+	width: 346px;
 }
 
 .search-hotel-form__input-short {
-	width: 114px;
 	text-align: center;
+	width: 114px;
 } 
+
+.search-hotel-form__item {
+	width: 100%;
+	position: relative;
+}
+
+.search-hotel-adults-number,
+.search-hotel-children-number {
+	width: 50%;
+}
 
 .map__image {
   display: block;
@@ -345,6 +352,12 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
   cursor: pointer;
   outline: none;
+}
+
+.calendar-button {
+	position: absolute;
+	width: 21px;
+	height: 22px
 }
 
 .calendar-button path{
