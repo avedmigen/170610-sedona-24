@@ -285,38 +285,53 @@ input[type="radio"].visually-hidden {
 	background-color: #503e33;
 }
 
+.search-hotel-form {
+	display: flex;
+	width: 568px;
+	flex-wrap: wrap;
+
+	position: absolute;
+	background-color: #ffffff;
+	box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+
+	padding-left: 55px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
 .search-hotel-form label,
-.search-hotel-form input {
+.search-hotel-form__input {
 	font-size: 14px;
 	font-weight: 700;
 	color: #000000;
 }
 
-.search-hotel-form input {
+.search-hotel-form__input {
 	background-color: #f2f2f2;
 	border: 2px solid transparent;
-	padding-left: 15px;
 	padding-top: 14px;
 	padding-bottom: 13px;
 }
 
-.search-hotel-form input:focus {
+.search-hotel-form__input:focus {
   background-color: #ffffff;
   border: 2px solid #E6E6E6;
   outline: none;
 }
 
-.search-hotel-form input:hover {
+.search-hotel-form__input:hover {
 	background-color: #ebebeb;
 }
 
-.search-hotel-form {
-  position: absolute;
-  background-color: #ffffff;
-  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
-  text-align: left;
-  padding: 55px;
+.search-hotel-form__input--long {
+	width: 386px;
+	padding-left: 15px;
 }
+
+.search-hotel-form__input-short {
+	width: 114px;
+	text-align: center;
+} 
 
 .map__image {
   display: block;
