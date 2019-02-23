@@ -532,19 +532,35 @@ input[type="radio"].visually-hidden {
   width: 23px;
   height: 23px;
 
+  border-radius: 15%;
+  cursor: pointer;
+
   border: 2px solid #ffffff;
 }
+
 
 .filter-input-checkbox:disabled + label::before {
 	content: "";
 	position: absolute;
-	left: -12px;
+	left: -13px;
 	top: 0;
 
 	width: 23px;
 	height: 23px;
 
   border: 2px solid  #6a6a6a;
+}
+
+.filter-input-checkbox:checked + label::before {
+	content: "";
+	position: absolute;
+	left: -13px;
+	top: 0;
+
+	width: 23px;
+	height: 23px;
+
+  border: 2px solid  red;
 }
 
 /* Cложный фильтр*/
