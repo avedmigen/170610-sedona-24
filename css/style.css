@@ -482,6 +482,8 @@ input[type="radio"].visually-hidden {
 
 /* Страница выбора гостиниц */
 
+/* Фильтр выбрать гостиницу в Седоне */
+
 .hotels-filter {
 	/* background-image: url('../img/filter-background.jpg');*/
 	background-color: #263238;
@@ -497,8 +499,23 @@ input[type="radio"].visually-hidden {
 	line-height: 21px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}   
+
+.filter-hotel-form legend {	
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 20px;
 }
 
+.filter-hotel-form label {	
+	cursor: pointer;
+}
+
+
+.filter-hotel-form fieldset {
+  border: none;
+}
 /* Cложный фильтр*/
 
 .filter-range {
@@ -549,7 +566,7 @@ input[type="radio"].visually-hidden {
   line-height: 21px;
   vertical-align: top;
 
-  cursor: pointer;
+
 }
 
 .price-controls .min-price,
@@ -949,11 +966,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-/* Фильтр выбрать гостиницу в Седоне */
 
-.filter-hotel-form fieldset {
-  border: none;
-}
 
 /* Карточки найденных отелей */
 
