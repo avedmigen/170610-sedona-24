@@ -165,6 +165,21 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 }
 
+.features-list li:nth-child(3) {
+	padding-left: 95px;
+	padding-right: 97px;
+}
+
+.features-list li:nth-child(4) {
+	padding-left: 69px;
+	padding-right: 69px;
+}
+
+.features-list li:nth-child(5) {
+	padding-left: 77px;
+	padding-right: 77px;
+}
+
 .features-list__item:first-child {
 	order: -2;
 }
@@ -214,6 +229,7 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	color: #000000;
   background-color: #ffffff;
+  justify-content: space-around;
 }
 
 .features-list__item--common li {
@@ -232,19 +248,16 @@ input[type="radio"].visually-hidden {
 }
 
 .features-list__item--color {
-	background-color: #eeeeee;
-}
-
-.features-list__text--color h3 {
-	color: #000000;
-}
-
-.features-list__number--color {
+	width: 400px;
 	color: #333333;
+	background-color: #eeeeee;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 50px; 
+  padding-bottom: 64px;
 }
 
 .features-list__text--color p {
-	color: #333333;
 	font-size: 14px;
 	font-weight: 400;
 }
