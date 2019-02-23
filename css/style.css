@@ -333,11 +333,18 @@ input[type="radio"].visually-hidden {
 .search-hotel-form__item {
 	width: 100%;
 	position: relative;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-hotel-adults-number,
 .search-hotel-children-number {
 	width: 50%;
+}
+
+.search-hotel-children-number {
+	padding-left: 53px;
 }
 
 .map__image {
@@ -357,7 +364,18 @@ input[type="radio"].visually-hidden {
 .calendar-button {
 	position: absolute;
 	width: 21px;
-	height: 22px
+	height: 22px;
+	right: 9px;
+}
+
+.increment-button {
+	position: absolute;
+	right: 13px;
+}
+
+.decrement-button {
+	position: absolute;
+	right: 91px;
 }
 
 .calendar-button path{
