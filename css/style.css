@@ -146,7 +146,8 @@ input[type="radio"].visually-hidden {
 
 .welcome__intro {
 	margin: 0 auto;
-	margin-top: 10px;
+	padding-top: 61px;
+	padding-bottom: 56px;
 }
 
 .welcome__intro h1 {
@@ -154,6 +155,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   color: #333333;
   width: 440px;
+  margin-bottom: 38px;
 }
 
 .features-list {
