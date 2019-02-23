@@ -528,6 +528,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-input-checkbox + label::before,
+.filter-input-checkbox:focus + label::before,
 .filter-input-checkbox:hover + label::before {
   content: "";
   position: absolute;
