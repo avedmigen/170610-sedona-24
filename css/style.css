@@ -502,7 +502,7 @@ input[type="radio"].visually-hidden {
 
 .filter-hotel-form li {
 	position: relative;
-	padding-left: 17px;
+	padding-left: 36px;
 	margin-bottom: 36px;
 }
 
@@ -521,13 +521,15 @@ input[type="radio"].visually-hidden {
 
 .filter-hotel-form fieldset {
   border: none;
+  margin-right: 94px;
+  padding: 0;
 }
 
 .filter-input-checkbox + label::before,
 .filter-input-checkbox:hover + label::before {
   content: "";
   position: absolute;
-  left: -13px;
+  left: 0px;
   top: 0;
 
   width: 23px;
@@ -543,7 +545,7 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:disabled + label::before {
 	content: "";
 	position: absolute;
-	left: -13px;
+	left: 0px;
 	top: 0;
 
 	width: 23px;
@@ -555,7 +557,7 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:checked + label::before {
 	content: "";
 	position: absolute;
-	left: -13px;
+	left: 0px;
 	top: 0;
 
 	width: 23px;
@@ -571,7 +573,7 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:checked:disabled + label::before {
 	content: "";
 	position: absolute;
-	left: -13px;
+	left: 0px;
 	top: 0;
 
 	width: 23px;
