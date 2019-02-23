@@ -501,6 +501,10 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 30px;
 }   
 
+.filter-hotel-form li {
+	position: relative;
+}
+
 .filter-hotel-form legend {	
 	font-weight: 700;
 	font-size: 16px;
@@ -508,20 +512,45 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 20px;
 }
 
-.filter-hotel-form label {	
+.filter-hotel-form label {
+	display: block;
+	cursor: pointer;	
 	cursor: pointer;
 }
-
 
 .filter-hotel-form fieldset {
   border: none;
 }
+
+.filter-input-checkbox + label::before,
+.filter-input-checkbox:hover + label::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  border: 2px solid #ffffff;
+}
+
+.filter-input-checkbox:disabled + label::before {
+	content: "";
+	position: absolute;
+	left: -12px;
+	top: 0;
+
+	width: 23px;
+	height: 23px;
+
+  border: 2px solid  #6a6a6a;
+}
+
 /* Cложный фильтр*/
 
 .filter-range {
   width: 314px;
-  color: #ffffff;
-  text-transform: uppercase;
   margin-left: auto;
 }
 
@@ -618,8 +647,10 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
+.range-toggle:focus,
 .range-toggle:hover {
-  background: #1c4f80;
+	width: 22px;
+	height: 22px;
 }
 
 .range-toggle-min {
