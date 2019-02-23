@@ -561,7 +561,27 @@ input[type="radio"].visually-hidden {
 	width: 23px;
 	height: 23px;
 
-  border: 2px solid  red;
+	background-image: url("../img/checkbox-on.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	border: none;
+}
+
+.filter-input-checkbox:checked:disabled + label::before {
+	content: "";
+	position: absolute;
+	left: -13px;
+	top: 0;
+
+	width: 23px;
+	height: 23px;
+
+	background-image: url("../img/checkbox-on-disabled.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	border: none;
 }
 
 /* Cложный фильтр*/
