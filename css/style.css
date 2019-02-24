@@ -428,14 +428,21 @@ input[type="radio"].visually-hidden {
 	right: 9px;
 }
 
+
+.increment-button, 
+.decrement-button {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
 .increment-button {
 	position: absolute;
-	right: 13px;
+	right: 3px;
 }
 
 .decrement-button {
-	position: absolute;
-	right: 91px;
+	right: 80px;
 }
 
 .calendar-button path{
@@ -532,7 +539,6 @@ input[type="radio"].visually-hidden {
 .filter-hotel-form label {
 	display: block;
 	cursor: pointer;	
-	cursor: pointer;
 }
 
 .filter-hotel-form fieldset {
