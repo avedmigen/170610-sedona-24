@@ -385,7 +385,7 @@ input[type="radio"].visually-hidden {
 
 .search-hotel-form__input--short {
 	text-align: center;
-	width: 114px;
+	width: 117px;
 	padding-left: 34px;
 	padding-right: 34px;	
 } 
@@ -396,6 +396,8 @@ input[type="radio"].visually-hidden {
 	display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
 
 .search-hotel-adults-number,
@@ -442,7 +444,7 @@ input[type="radio"].visually-hidden {
 }
 
 .decrement-button {
-	right: 80px;
+	right: 82px;
 }
 
 .calendar-button path{
