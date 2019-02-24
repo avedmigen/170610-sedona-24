@@ -165,22 +165,7 @@ input[type="radio"].visually-hidden {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-
-.features-list li:nth-child(3) {
-	padding-left: 95px;
-	padding-right: 97px;
-}
-
-.features-list li:nth-child(4) {
-	padding-left: 69px;
-	padding-right: 69px;
-}
-
-.features-list li:nth-child(5) {
-	padding-left: 77px;
-	padding-right: 77px;
-}
+} 
 
 .features-list__item:first-child {
 	order: -2;
@@ -228,7 +213,9 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 8px;
 }
 
-.features-list__item--common {
+.features-list__sublist {
+	display: flex;
+	flex-direction: row;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -236,7 +223,7 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
-.features-list__item--common li {
+.features-list__sublist li {
   width: 400px;
   padding: 134px 47px 70px;
   background-repeat: no-repeat;
@@ -244,25 +231,25 @@ input[type="radio"].visually-hidden {
   background-size: auto auto;
 }
 
-.features-list__item--common li:first-child {
+.features-list__sublist li:first-child {
 	background-image: url('../img/housing-icon.svg')
 }
 
-.features-list__item--common li:nth-child(2) {
+.features-list__sublist li:nth-child(2) {
 	background-image: url('../img/food-icon.svg')
 }
 
-.features-list__item--common li:last-child {
+.features-list__sublist li:last-child {
 	background-image: url('../img/souvenir-icon.svg')
 }
 
 
-.features-list__item--common h4 {
+.features-list__sublist h4 {
 	font-size: 21px;
 	font-weight: 700;
 }
 
-.features-list__item--common p {
+.features-list__sublist p {
 	color: #333333;
 }
 
