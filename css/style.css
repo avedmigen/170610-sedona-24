@@ -378,13 +378,16 @@ input[type="radio"].visually-hidden {
 }
 
 .search-hotel-form__input--long {
-	padding-left: 15px;
 	width: 346px;
+	padding-left: 15px;
+	padding-right: 32px;	
 }
 
-.search-hotel-form__input-short {
+.search-hotel-form__input--short {
 	text-align: center;
 	width: 114px;
+	padding-left: 34px;
+	padding-right: 34px;	
 } 
 
 .search-hotel-form__item {
