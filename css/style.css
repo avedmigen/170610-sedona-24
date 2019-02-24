@@ -218,11 +218,14 @@ input[type="radio"].visually-hidden {
 .features-list__text h3 {
 	font-size: 21px;
 	font-weight: 700;
+	padding-left: 32px;
+	padding-right: 32px;
 }
 
 .features-list__number{
 	font-size: 14px;
 	font-weight: 400;
+	padding-bottom: 8px;
 }
 
 .features-list__item--common {
@@ -231,7 +234,6 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	color: #000000;
   background-color: #ffffff;
-  justify-content: space-around;
 }
 
 .features-list__item--common li {
@@ -270,8 +272,16 @@ input[type="radio"].visually-hidden {
 	background-color: #eeeeee;
   line-height: 21px;
   text-align: center;
-  padding-top: 50px; 
-  padding-bottom: 64px;
+  padding-top: 25px; 
+  padding-bottom: 30px;
+}
+
+.features-list__item--color h3 {
+	color: #333333;
+	font-size: 21px;
+	font-weight: 700;
+	padding-left: 43px;
+	padding-right: 43px;
 }
 
 .features-list__text--color p {
