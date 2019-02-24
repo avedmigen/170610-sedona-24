@@ -353,6 +353,7 @@ input[type="radio"].visually-hidden {
 	font-size: 14px;
 	font-weight: 700;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 .search-hotel-form label {
@@ -362,8 +363,8 @@ input[type="radio"].visually-hidden {
 .search-hotel-form__input {
 	background-color: #f2f2f2;
 	border: 2px solid transparent;
-	padding-top: 14px;
-	padding-bottom: 13px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 }
 
 .search-hotel-form__input:focus {
