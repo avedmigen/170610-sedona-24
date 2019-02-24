@@ -330,15 +330,33 @@ input[type="radio"].visually-hidden {
 	background-color: #503e33;
 }
 
+/*Форма поиска гостиниц на главной */
+
 .search-hotel-form {
 	display: flex;
-	width: 568px;
 	flex-wrap: wrap;
+	width: 568px;
+	flex-direction: row;
 	position: absolute;
 	background-color: #ffffff;
 	box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
 	padding: 55px;
 	text-align: left;
+}
+
+.search-hotel-form__item {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.number__wrapper {
+	position: relative;
 }
 
 .search-hotel-form label,
@@ -370,6 +388,14 @@ input[type="radio"].visually-hidden {
 	background-color: #ebebeb;
 }
 
+.search-hotel-form__item--half {
+	width: 50%;
+}
+
+.search-hotel-form__item--half:last-child {
+	width: 30%;
+}
+
 .search-hotel-form__input--long {
 	width: 346px;
 	padding-left: 15px;
@@ -378,33 +404,10 @@ input[type="radio"].visually-hidden {
 
 .search-hotel-form__input--short {
 	text-align: center;
-	width: 117px;
+	width: 114px;
 	padding-left: 34px;
 	padding-right: 34px;	
 } 
-
-.search-hotel-form__item {
-	width: 100%;
-	position: relative;
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0;
-  margin-bottom: 28px;
-}
-
-.search-hotel-adults-number,
-.search-hotel-children-number {
-	width: 50%;
-}
-
-.search-hotel-children-number {
-	padding-left: 53px;
-}
-
-.map__image {
-  display: block;
-}
 
 .form-button {
 	padding: 0;
@@ -420,6 +423,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	width: 21px;
 	height: 22px;
+	top: 7px;
 	right: 9px;
 }
 
@@ -494,6 +498,10 @@ input[type="radio"].visually-hidden {
 .search-hotel__submit:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #5496bd;
+}
+
+.map__image {
+  display: block;
 }
 
 /* Страница выбора гостиниц */
