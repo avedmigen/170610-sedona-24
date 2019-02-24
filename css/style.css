@@ -259,22 +259,23 @@ input[type="radio"].visually-hidden {
 	background-color: #eeeeee;
   line-height: 21px;
   text-align: center;
-  padding-top: 25px; 
-  padding-bottom: 30px;
+  padding: 25px 45px 30px;
 }
 
 .features-list__item--color h3 {
 	color: #333333;
 	font-size: 21px;
 	font-weight: 700;
-	padding-left: 43px;
-	padding-right: 43px;
+	padding-left: 75px;
+	padding-right: 75px;
 }
 
-.features-list__text--color p {
+.features-list__item--color p {
 	font-size: 14px;
 	font-weight: 400;
-}
+	padding-left: 26px;
+	padding-right: 26px;
+} 
 
 .features-list__image img {
   display:block;
