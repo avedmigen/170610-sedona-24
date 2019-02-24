@@ -388,12 +388,13 @@ input[type="radio"].visually-hidden {
 	background-color: #ebebeb;
 }
 
-.search-hotel-form__item--half {
+.search-hotel-form__item:nth-child(3) {
 	width: 50%;
 }
 
-.search-hotel-form__item--half:last-child {
-	width: 30%;
+.search-hotel-form__item:nth-child(4) {
+	width: 39%;
+	margin-left: auto;
 }
 
 .search-hotel-form__input--long {
@@ -437,11 +438,12 @@ input[type="radio"].visually-hidden {
 
 .increment-button {
 	position: absolute;
+	top: 3px;
 	right: 3px;
 }
 
 .decrement-button {
-	right: 82px;
+	top: 3px;
 }
 
 .calendar-button path{
