@@ -165,7 +165,7 @@ input[type="radio"].visually-hidden {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-} 
+}
 
 .features-list__item:first-child {
 	order: -2;
@@ -189,7 +189,7 @@ input[type="radio"].visually-hidden {
 	padding-top: 46px;
 }
 
-.features-list__text--left {	
+.features-list__text--left {
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -254,12 +254,11 @@ input[type="radio"].visually-hidden {
 }
 
 .features-list__item--color {
+  display: block;
 	width: 400px;
 	color: #333333;
 	background-color: #eeeeee;
-  line-height: 21px;
-  text-align: center;
-  padding: 25px 45px 30px;
+  padding: 25px 45px 56px;
 }
 
 .features-list__item--color h3 {
@@ -273,9 +272,7 @@ input[type="radio"].visually-hidden {
 .features-list__item--color p {
 	font-size: 14px;
 	font-weight: 400;
-	padding-left: 26px;
-	padding-right: 26px;
-} 
+}
 
 .features-list__item--color:nth-child(4) p {
 	padding-left: 23px;
@@ -400,15 +397,15 @@ input[type="radio"].visually-hidden {
 .search-hotel-form__input--long {
 	width: 346px;
 	padding-left: 15px;
-	padding-right: 32px;	
+	padding-right: 32px;
 }
 
 .search-hotel-form__input--short {
 	text-align: center;
 	width: 114px;
 	padding-left: 34px;
-	padding-right: 34px;	
-} 
+	padding-right: 34px;
+}
 
 .form-button {
 	padding: 0;
@@ -429,7 +426,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-.increment-button, 
+.increment-button,
 .decrement-button {
 	width: 30px;
 	height: 30px;
@@ -526,7 +523,7 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	line-height: 21px;
 	padding-top: 25px;
-}   
+}
 
 .filter-hotel-form li {
 	position: relative;
@@ -534,7 +531,7 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 29px;
 }
 
-.filter-hotel-form legend {	
+.filter-hotel-form legend {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
@@ -543,7 +540,7 @@ input[type="radio"].visually-hidden {
 
 .filter-hotel-form label {
 	display: block;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 .filter-hotel-form fieldset {
@@ -631,11 +628,11 @@ input[type="radio"].visually-hidden {
 
 .price-controls {
   position: relative;
-  
+
   height: 36px;
   margin-bottom: 20px;
   padding-top: 5px;
-  
+
   font-size: 0;
 
   border: 2px solid #ffffff;
@@ -703,7 +700,7 @@ input[type="radio"].visually-hidden {
 .range-toggle {
   position: absolute;
   top: -9px;
-  
+
   width: 20px;
   height: 20px;
 
