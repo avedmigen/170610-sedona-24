@@ -127,27 +127,27 @@ input[type="radio"].visually-hidden {
 
 .welcome {
 	display: flex;
-	flex-direction: column-reverse;
-	text-align: center;
+	flex-direction: column-reverse;	
 }
 
 .welcome__image {
+	padding-top: 75px;
+	padding-bottom: 33px;
 	background-image: url('../img/white-polygon.svg'), url('../img/background-photo.jpg');
 	background-color: #666666;
 	background-repeat: no-repeat;
-	background-position: center bottom, 50% 31%;
-	padding-top: 75px;
+	background-position: center bottom, center 28%;
 }
 
 .welcome__image img {
+	display: block;
 	margin: 0 auto;
-	margin-bottom: 45px;
+	margin-bottom: 47px;
 }
 
 .welcome__intro {
 	margin: 0 auto;
-	padding-top: 61px;
-	padding-bottom: 56px;
+	text-align: center;
 }
 
 .welcome__intro h1 {
