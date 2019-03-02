@@ -522,7 +522,6 @@ input[type='radio'].visually-hidden {
 .search-hotel-form__input:focus {
     border: 2px solid #e6e6e6;
     outline: none;
-    background-color: #fff;
 }
 
 .search-hotel-form__input:hover {
