@@ -50,6 +50,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   background-color: #ffffff;
   position: relative;
+  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
  }
 
 .main-header {
@@ -146,16 +147,19 @@ input[type="radio"].visually-hidden {
 }
 
 .welcome__intro {
-	margin: 0 auto;
+	margin: 0 auto;	
+	padding-top: 45px;
+	padding-bottom: 37px;
 	text-align: center;
 }
 
 .welcome__intro h1 {
-	font-size: 21px;
+  font-size: 21px;
   font-weight: 700;
   color: #333333;
-  width: 440px;
-  margin-bottom: 38px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 28px;
 }
 
 .features-list {
@@ -181,12 +185,12 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	line-height: 21px;
 	text-align: center;
-	background-color: #81b3d2;
+	background-color: #81b3d2;	
 }
 
 .features-list__text {
 	width: 400px;
-	padding-top: 46px;
+	padding-top: 26px;
 }
 
 .features-list__text--left {
@@ -196,21 +200,24 @@ input[type="radio"].visually-hidden {
 
 .features-list__text--right {
 	order: 1;
+	padding-top: 25px;
 	padding-left: 48px;
-	padding-right: 48px;
+	padding-right: 49px;
 }
 
 .features-list__text h3 {
 	font-size: 21px;
 	font-weight: 700;
-	padding-left: 32px;
-	padding-right: 32px;
+	padding-left: 76px;
+	padding-right: 76px;
+	margin-bottom: 24px;
 }
 
 .features-list__number{
 	font-size: 14px;
 	font-weight: 400;
-	padding-bottom: 8px;
+	display: block;
+	margin-bottom: 21px;
 }
 
 .features-list__sublist {
@@ -225,28 +232,36 @@ input[type="radio"].visually-hidden {
 
 .features-list__sublist li {
   width: 400px;
-  padding: 134px 47px 70px;
+  padding-top: 133px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 70px;
   background-repeat: no-repeat;
   background-position: 50% 60px;
   background-size: auto auto;
 }
 
 .features-list__sublist li:first-child {
-	background-image: url('../img/housing-icon.svg')
+	background-image: url('../img/housing-icon.svg');
+	background-size: 75px 72px; 
 }
 
 .features-list__sublist li:nth-child(2) {
-	background-image: url('../img/food-icon.svg')
+	background-image: url('../img/food-icon.svg');
+	background-size: 74px 70px;
 }
 
 .features-list__sublist li:last-child {
-	background-image: url('../img/souvenir-icon.svg')
+	background-image: url('../img/souvenir-icon.svg');
+	background-size: 64px 76px;
+	background-position: center 22%;	
 }
 
 
 .features-list__sublist h4 {
 	font-size: 21px;
 	font-weight: 700;
+	margin-bottom: 23px;
 }
 
 .features-list__sublist p {
