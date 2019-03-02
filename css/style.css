@@ -784,11 +784,8 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	line-height: 18px;
 	display: flex;
-	padding: 34px 36px 34px 32px;
+	padding: 34px 72px 32px 72px;
 	border-bottom: 1px solid rgba(0, 1, 1, 0.2);
-
-	padding-left: 72px;
-	padding-right: 72px;
 }
 
 .filter-results__found {
@@ -815,7 +812,8 @@ input[type="radio"].visually-hidden {
 }
 
 .ascdesc__item {
-	margin-left: 12px;
+	margin-left: 13px;
+	margin-top: 2px;
 }
 
 .ascdesc__item polygon {
