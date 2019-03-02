@@ -73,7 +73,7 @@ input[type="radio"].visually-hidden {
   height: 71px;
   top: 0;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -70px;
 }
 
 .site-navigation {
@@ -114,12 +114,17 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation__item--right {
-	padding-right: 72px;
+	padding-right: 75px;
 	text-align: right;
+}
+
+.site-navigation__item--right:last-child {
+	padding-right: 72px;
 }
 
 .site-navigation__item--left:nth-child(2) {
 	margin-right: auto;
+	padding-left: 74px;
 }
 
 .main-container {
@@ -531,7 +536,7 @@ input[type="radio"].visually-hidden {
 	background-color: #263238;
 	padding-left: 72px;
 	padding-right: 72px;
-	padding-bottom: 7px;
+	padding-bottom: 6px;
 }
 
 .filter-hotel-form {
@@ -545,7 +550,7 @@ input[type="radio"].visually-hidden {
 
 .filter-hotel-form li {
 	position: relative;
-	padding-left: 36px;
+	padding-left: 38px;
 	margin-bottom: 25px;
 }
 
@@ -554,6 +559,8 @@ input[type="radio"].visually-hidden {
 	font-size: 16px;
 	line-height: 21px;
 	margin-bottom: 26px;
+	padding-top: 1px;
+	margin-left: -2px;
 }
 
 .filter-hotel-form label {
@@ -563,7 +570,7 @@ input[type="radio"].visually-hidden {
 
 .filter-hotel-form fieldset {
   border: none;
-  margin-right: 117px;
+  margin-right: 118px;
   padding: 0;
 }
 
@@ -572,8 +579,8 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:hover + label::before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 0;
+  left: -2px;
+  top: -1px;
 
   width: 23px;
   height: 23px;
@@ -600,8 +607,8 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:checked + label::before {
 	content: "";
 	position: absolute;
-	left: 0px;
-	top: 0;
+	left: -2px;
+	top: -1px;
 
 	width: 23px;
 	height: 23px;
@@ -634,7 +641,7 @@ input[type="radio"].visually-hidden {
 .filter-range {
   width: 314px;
   margin-left: auto;
-  margin-right: 5px;
+  margin-right: 3px;
   padding-top: 1px;
 }
 
@@ -682,9 +689,12 @@ input[type="radio"].visually-hidden {
 
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
-  padding-left: 68px;
+.min-price {
+  padding-left: 64px;
+}
+
+.max-price {
+ padding-left: 76px;
 }
 
 .price-controls input {
@@ -746,8 +756,9 @@ input[type="radio"].visually-hidden {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
   padding: 6px 35px;
+
+  margin-left: 83px;
 
   font-size: 14px;
   line-height: 20px;
@@ -784,7 +795,7 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	font-size: 21px;
 	font-weight: 700;
-	margin-right: 43px ;
+	margin-right: 47px;
 }
 
 .sort-option,
@@ -943,13 +954,14 @@ input[type="radio"].visually-hidden {
 
 .filter-result-item__button--book:active {
 	color: rgba(255, 255, 255, 0.3);
-	background-color: #503e33;
+	background-color: #503e33;	
 }
 
 .filter-result-item__rank {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-top: 4px;
 }
 
 
@@ -964,26 +976,26 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-result-item__stars--four {
-	width: 72px;
+	width: 89px;
 }
 
 .filter-result-item__stars--three {
-	width: 54px;
+	width: 64px;
 }
 
 .filter-result-item__stars--two {
-	width: 36px;
+	width: 41px;
 }
 
 .filter-result-item__rating {
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 21px;
-	padding-top: 7px;
-	padding-bottom: 8px;
-	padding-left: 17px;
-	padding-right: 17px;
-  margin-bottom: 0;
+	line-height: 21px; 
+	padding-bottom: 4px;
+	padding-left: 16px;
+	padding-right: 12px;
+	padding-top: 2px;
+  	margin-bottom: 0;
 	color: #666666;
 	background-color: #F2F2F2;
 }
@@ -993,7 +1005,7 @@ input[type="radio"].visually-hidden {
  .main-footer {
   display: flex;
   background-color: #FFFFFF;
-  padding-top: 34px;
+  padding-top: 33px;
   padding-bottom: 34px;
 }
 
