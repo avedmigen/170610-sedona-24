@@ -337,10 +337,6 @@ input[type='radio'].visually-hidden {
     font-weight: 400;
 }
 
-.features-list__item--color:nth-child(3) > p {
-    padding: 0 0 0 4px;
-}
-
 .features-list__image img {
     display: block;
 }
