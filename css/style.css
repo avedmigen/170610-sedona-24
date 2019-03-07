@@ -397,6 +397,7 @@ input[type='radio'].visually-hidden {
 
 .search-hotel-form {
     position: absolute;
+    z-index: 1;
 
     display: flex;
     flex-direction: row;
@@ -590,10 +591,17 @@ input[type='radio'].visually-hidden {
     background-color: #5496bd;
 }
 
+.map {
+  position: relative;
+}
+
 .map__image {
     display: block;
 }
 
+.map__interactive {
+  position: absolute;
+}
 /* Страница выбора гостиниц */
 
 /* Фильтр выбрать гостиницу в Седоне */
