@@ -642,8 +642,6 @@ input[type='radio'].visually-hidden {
     line-height: 21px;
 
     margin-bottom: 26px;
-    margin-left: -2px;
-    padding-top: 1px;
 }
 
 .filter-hotel-form label {
@@ -653,7 +651,8 @@ input[type='radio'].visually-hidden {
 }
 
 .filter-hotel-form fieldset {
-    margin-right: 118px;
+    margin: 0;
+    margin-right: 120px;
     padding: 0;
 
     border: none;
@@ -728,7 +727,6 @@ input[type='radio'].visually-hidden {
     width: 314px;
     margin-right: 3px;
     margin-left: auto;
-    padding-top: 1px;
 }
 
 .filter-range-title {
@@ -930,6 +928,7 @@ input[type='radio'].visually-hidden {
     fill: #81b3d2;
 }
 
+
 .filter-hotel-form ul {
     margin: 0;
     padding: 0;
@@ -937,7 +936,7 @@ input[type='radio'].visually-hidden {
     list-style-type: none;
 }
 
-.filter-result__sort {
+.filter-results__sort {
     margin-right: 40px;
 }
 
@@ -989,8 +988,6 @@ input[type='radio'].visually-hidden {
     display: flex;
     flex-direction: row;
 
-    width: 182px;
-
     flex-wrap: wrap;
 }
 
@@ -1018,8 +1015,8 @@ input[type='radio'].visually-hidden {
     color: rgba(0, 0, 0, .3);
 }
 
-.filter-result-item__price {
-    margin-left: auto;
+.filter-result-item__type {
+    min-width: 110px;
 }
 
 .filter-result-item__button {
@@ -1167,14 +1164,14 @@ input[type='radio'].visually-hidden {
     color: #000;
 }
 
-.main-footer__social--item {
+.main-footer__social-item {
     margin-right: 2.5px;
     margin-left: 2.5px;
 
     background-color: #81b3d2;
 }
 
-.main-footer__social--icon {
+.main-footer__social-icon {
     display: flex;
 
     width: 46px;
@@ -1183,23 +1180,23 @@ input[type='radio'].visually-hidden {
     align-items: center;
 }
 
-.main-footer__social--icon svg {
+.main-footer__social-icon svg {
     display: block;
 
     margin-right: auto;
     margin-left: auto;
 }
 
-.main-footer__social--icon:focus,
-.main-footer__social--icon:hover {
+.main-footer__social-icon:focus,
+.main-footer__social-icon:hover {
     background-color: #669ec0;
 }
 
-.main-footer__social--icon:active {
+.main-footer__social-icon:active {
     background-color: #5496bd;
 }
 
-.main-footer__social--icon:active path {
+.main-footer__social-icon:active path {
     fill: rgba(255, 255, 255, .3);
 }
 
