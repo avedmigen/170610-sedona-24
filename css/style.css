@@ -957,7 +957,7 @@ input[type='radio'].visually-hidden {
 }
 
 .sort-option__item--current a {
-    text-decoration: none;
+    border: none;
 
     color: #81b3d2;
 }
