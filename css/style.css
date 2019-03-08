@@ -562,8 +562,8 @@ input[type='radio'].visually-hidden {
     font-weight: 700;
 
     width: 458px;
-    margin-top: 25px;
-    padding-top: 17px;
+    margin-top: 23px;
+    padding-top: 16px;
     padding-right: 17px;
     padding-bottom: 16px;
     padding-left: 17px;
@@ -624,7 +624,7 @@ input[type='radio'].visually-hidden {
     position: relative;
 
     margin-bottom: 25px;
-    padding-left: 38px;
+    padding-left: 40px;
 }
 
 .filter-hotel-form legend {
@@ -863,7 +863,7 @@ input[type='radio'].visually-hidden {
 
     display: flex;
 
-    padding: 34px 72px 32px 72px;
+    padding: 35px 72px 32px 72px;
 
     border-bottom: 1px solid rgba(0, 1, 1, .2);
 }
@@ -1010,6 +1010,7 @@ input[type='radio'].visually-hidden {
 
 .filter-result-item__type {
     min-width: 110px;
+    margin-right: 6px;
 }
 
 .filter-result-item__button {
@@ -1076,7 +1077,7 @@ input[type='radio'].visually-hidden {
 }
 
 .filter-result-item__stars--four {
-    width: 84px;
+    width: 88px;
 }
 
 .filter-result-item__stars--three {
