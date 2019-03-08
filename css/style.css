@@ -67,8 +67,6 @@ input[type='radio'].visually-hidden {
     padding: 0;
 }
 
-/* Главное меню сайта  */
-
 .main-navigation {
     position: relative;
 
@@ -80,8 +78,6 @@ input[type='radio'].visually-hidden {
     position: absolute;
     top: 0;
     left: 50%;
-
-    display: inline-block;
 
     width: 140px;
     height: 71px;
@@ -300,7 +296,6 @@ input[type='radio'].visually-hidden {
     background-size: 64px 76px;
 }
 
-
 .features-list__sublist h4 {
     font-size: 21px;
     font-weight: 700;
@@ -392,8 +387,6 @@ input[type='radio'].visually-hidden {
     color: rgba(255, 255, 255, .3);
     background-color: #503e33;
 }
-
-/*Форма поиска гостиниц на главной */
 
 .search-hotel-form {
     position: absolute;
@@ -603,9 +596,6 @@ input[type='radio'].visually-hidden {
 .map__interactive {
   position: absolute;
 }
-/* Страница выбора гостиниц */
-
-/* Фильтр выбрать гостиницу в Седоне */
 
 .hotels-filter {
     padding-right: 72px;
@@ -721,8 +711,6 @@ input[type='radio'].visually-hidden {
     background-repeat: no-repeat;
     background-position: 0 0;
 }
-
-/* Cложный фильтр*/
 
 .filter-range {
     width: 314px;
@@ -863,8 +851,6 @@ input[type='radio'].visually-hidden {
     background: #fff;
 }
 
-/* Конец сложного фильтра */
-
 .filter-results__wrapper {
     font-size: 12px;
     font-weight: 400;
@@ -949,6 +935,7 @@ input[type='radio'].visually-hidden {
 .sort-option__item a:focus,
 .sort-option__item a:hover {
     color: #81b3d2;
+    border: none;
 }
 
 .sort-option__item a:active {
@@ -1032,6 +1019,7 @@ input[type='radio'].visually-hidden {
     padding-right: 17px;
     padding-bottom: 4px;
     padding-left: 17px;
+    vertical-align: baseline;
 
     color: #fff;
     background-color: #81b3d2;
@@ -1069,7 +1057,6 @@ input[type='radio'].visually-hidden {
 
     justify-content: space-between;
 }
-
 
 .filter-result-item__stars {
     height: 18px;
@@ -1109,8 +1096,6 @@ input[type='radio'].visually-hidden {
     color: #666;
     background-color: #f2f2f2;
 }
-
-/* Футер */
 
 .main-footer {
     display: flex;
