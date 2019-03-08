@@ -641,6 +641,11 @@ input[type='radio'].visually-hidden {
     cursor: pointer;
 }
 
+.filter-hotel-form label:focus,
+.filter-hotel-form label:hover {
+    outline: auto;
+}
+
 .filter-hotel-form fieldset {
     margin: 0;
     margin-right: 120px;
@@ -1212,18 +1217,19 @@ input[type='radio'].visually-hidden {
     list-style-type: none;
 }
 
-.filter-result-item__image {
+.filter-result-item__image {    
     margin-right: 30px;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 
 .filter-result-item__image img {
-    display: block;
+    display: block;    
 }
 
 .filter-result-item__description {
     display: flex;
     flex-direction: column;
+    max-width: 700px;
 
     margin-right: auto;
 
